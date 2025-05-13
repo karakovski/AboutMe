@@ -1,6 +1,6 @@
 ## задание 1
 
-<?php
+```<?php
 
 // первая переменная
 $first = trim(fgets(STDIN));
@@ -28,11 +28,13 @@ $number = $first / $second;
 echo(STDOUT.$number.PHP_EOL);
   
 }
-?>
+?>```
+
 
 ## задание 2
 
-<?php
+
+```<?php
 
 // получаем имя
 $name = trim(fgets(STDIN));
@@ -66,5 +68,5 @@ echo(STDOUT.$fullName.PHP_EOL);
 echo(STDOUT.$fio.PHP_EOL);
 echo(STDOUT.$surnameAndInitials.PHP_EOL);
 
-?>
+?>```
 
